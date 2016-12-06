@@ -12,6 +12,7 @@
 		91D69D581DF6379B001265CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D69D561DF6379B001265CF /* Main.storyboard */; };
 		91D69D5A1DF6379B001265CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D69D591DF6379B001265CF /* Assets.xcassets */; };
 		91D69D5D1DF6379B001265CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D69D5B1DF6379B001265CF /* LaunchScreen.storyboard */; };
+		91D69D651DF6395A001265CF /* NRFManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D69D641DF6395A001265CF /* NRFManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		91D69D591DF6379B001265CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D69D5C1DF6379B001265CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91D69D5E1DF6379B001265CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D69D641DF6395A001265CF /* NRFManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRFManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				91D69D521DF6379B001265CF /* AppDelegate.swift */,
 				91D69D541DF6379B001265CF /* ViewController.swift */,
 				91D69D561DF6379B001265CF /* Main.storyboard */,
+				91D69D641DF6395A001265CF /* NRFManager.swift */,
 				91D69D591DF6379B001265CF /* Assets.xcassets */,
 				91D69D5B1DF6379B001265CF /* LaunchScreen.storyboard */,
 				91D69D5E1DF6379B001265CF /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D69D551DF6379B001265CF /* ViewController.swift in Sources */,
+				91D69D651DF6395A001265CF /* NRFManager.swift in Sources */,
 				91D69D531DF6379B001265CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
