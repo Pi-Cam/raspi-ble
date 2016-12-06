@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91D69D531DF6379B001265CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D69D521DF6379B001265CF /* AppDelegate.swift */; };
+		91D69D551DF6379B001265CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D69D541DF6379B001265CF /* ViewController.swift */; };
+		91D69D581DF6379B001265CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D69D561DF6379B001265CF /* Main.storyboard */; };
+		91D69D5A1DF6379B001265CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D69D591DF6379B001265CF /* Assets.xcassets */; };
+		91D69D5D1DF6379B001265CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D69D5B1DF6379B001265CF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91D69D4F1DF6379B001265CF /* RasPi-BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RasPi-BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D69D521DF6379B001265CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91D69D541DF6379B001265CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91D69D571DF6379B001265CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91D69D591DF6379B001265CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D69D5C1DF6379B001265CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91D69D5E1DF6379B001265CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D69D4C1DF6379B001265CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91D69D461DF6379B001265CF = {
+			isa = PBXGroup;
+			children = (
+				91D69D511DF6379B001265CF /* RasPi-BLE */,
+				91D69D501DF6379B001265CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91D69D501DF6379B001265CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D69D4F1DF6379B001265CF /* RasPi-BLE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D69D511DF6379B001265CF /* RasPi-BLE */ = {
+			isa = PBXGroup;
+			children = (
+				91D69D521DF6379B001265CF /* AppDelegate.swift */,
+				91D69D541DF6379B001265CF /* ViewController.swift */,
+				91D69D561DF6379B001265CF /* Main.storyboard */,
+				91D69D591DF6379B001265CF /* Assets.xcassets */,
+				91D69D5B1DF6379B001265CF /* LaunchScreen.storyboard */,
+				91D69D5E1DF6379B001265CF /* Info.plist */,
+			);
+			path = "RasPi-BLE";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91D69D4E1DF6379B001265CF /* RasPi-BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D69D611DF6379B001265CF /* Build configuration list for PBXNativeTarget "RasPi-BLE" */;
+			buildPhases = (
+				91D69D4B1DF6379B001265CF /* Sources */,
+				91D69D4C1DF6379B001265CF /* Frameworks */,
+				91D69D4D1DF6379B001265CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RasPi-BLE";
+			productName = "RasPi-BLE";
+			productReference = 91D69D4F1DF6379B001265CF /* RasPi-BLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D69D471DF6379B001265CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ross Justin";
+				TargetAttributes = {
+					91D69D4E1DF6379B001265CF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PT47R5Y4XZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91D69D4A1DF6379B001265CF /* Build configuration list for PBXProject "RasPi-BLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D69D461DF6379B001265CF;
+			productRefGroup = 91D69D501DF6379B001265CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D69D4E1DF6379B001265CF /* RasPi-BLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D69D4D1DF6379B001265CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D69D5D1DF6379B001265CF /* LaunchScreen.storyboard in Resources */,
+				91D69D5A1DF6379B001265CF /* Assets.xcassets in Resources */,
+				91D69D581DF6379B001265CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D69D4B1DF6379B001265CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D69D551DF6379B001265CF /* ViewController.swift in Sources */,
+				91D69D531DF6379B001265CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91D69D561DF6379B001265CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D69D571DF6379B001265CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91D69D5B1DF6379B001265CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D69D5C1DF6379B001265CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91D69D5F1DF6379B001265CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91D69D601DF6379B001265CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D69D621DF6379B001265CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT47R5Y4XZ;
+				INFOPLIST_FILE = "RasPi-BLE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roju.RasPi-BLE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91D69D631DF6379B001265CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT47R5Y4XZ;
+				INFOPLIST_FILE = "RasPi-BLE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roju.RasPi-BLE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91D69D4A1DF6379B001265CF /* Build configuration list for PBXProject "RasPi-BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D69D5F1DF6379B001265CF /* Debug */,
+				91D69D601DF6379B001265CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D69D611DF6379B001265CF /* Build configuration list for PBXNativeTarget "RasPi-BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D69D621DF6379B001265CF /* Debug */,
+				91D69D631DF6379B001265CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91D69D471DF6379B001265CF /* Project object */;
+}
